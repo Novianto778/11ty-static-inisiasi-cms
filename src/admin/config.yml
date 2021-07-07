@@ -4,7 +4,7 @@ backend:
 media_folder: 'public/assets'
 public_folder: '/assets'
 collections:
-  -name: 'beranda'
+  - name: 'beranda'
   label: "Beranda"
   folder: 'src/beranda'
     create: true
@@ -13,7 +13,7 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
 
-  -name: 'tugas'
+  - name: 'tugas'
   label: "Tugas"
   folder: 'src/tugas'
     create: true
