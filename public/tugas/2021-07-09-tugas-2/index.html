@@ -19,18 +19,25 @@
 </nav>
 
     <main>
-      <div class="beranda__post__full">
-    <div class="beranda__card__full">
-      <h4 class="card--title--full">Tugas 2</h4>
-      <div class="card--content--full"><p>Jika NPM anda tidak terdapat pada daftar peserta lulus atau peserta tidak lulus, silahkan menghubungi PH Inisiasi FTI UAJY 2020. Batas konfirmasi adalah 17 Oktober 2020 pukul 23:59 WIB.</p>
+      
+<div class="beranda__post__full">
+  <div class="beranda__card__full">
+    <h4 class="card--title--full">Tugas 2</h4>
+    <div class="card--content--full">
+      <p>Jika NPM anda tidak terdapat pada daftar peserta lulus atau peserta tidak lulus, silahkan menghubungi PH Inisiasi FTI UAJY 2020. Batas konfirmasi adalah 17 Oktober 2020 pukul 23:59 WIB.</p>
 <p>Selamat datang di website Inisiasi Fakultas Teknologi Industri UAJY 2020.</p>
 <p>Haiii calon mahasiswa baru Fakultas Teknologi Industri Universitas Atma Jaya Yogyakarta!! Ini adalah website resmi Inisiasi FTI UAJY 2020.</p>
 <p>Di sini ini, kalian bisa mendapatkan informasi-informasi seputar FTI UAJY, info lembaga-lembaga di FTI UAJY, pengumuman selama inisiasi, tugas-tugas selama inisiasi dan makrab berlangsung, dan lain-lain.</p>
 <p>Jadi, jangan lupa untuk terus cek website ini yaa 😁👍 dan jangan lupa juga untuk memfollow akun-akun kita di sosial media lain ya!! Instagram: @inisiasi_ftiuajy
 OA Line : @242enyob
 Website : https://fti.uajy.ac.id/inisiasi/</p>
-</div>
+
+      <p class="tugas--link--title">Link Pengumpulan</p>
+      <p class="tugas--link">
+        <a href="https://github.com/novianto778">github.com/novianto778</a>
+      </p>
     </div>
+  </div>
 </div>
 
     </main>
@@ -45,5 +52,17 @@ Website : https://fti.uajy.ac.id/inisiasi/</p>
     </p>
   </div>
 </footer>
+
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
   </body>
 </html>

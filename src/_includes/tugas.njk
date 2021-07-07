@@ -1,9 +1,16 @@
 ---
 layout: 'base.njk'
 ---
+
 <div class="beranda__post__full">
-    <div class="beranda__card__full">
-      <h4 class="card--title--full">{{title}}</h4>
-      <div class="card--content--full">{{ content | safe }}</div>
+  <div class="beranda__card__full">
+    <h4 class="card--title--full">{{ title }}</h4>
+    <div class="card--content--full">
+      {{ content | safe }}
+      <p class="tugas--link--title">Link Pengumpulan</p>
+      <p class="tugas--link">
+        <a href="https://{{ url }}">{{ url }}</a>
+      </p>
     </div>
+  </div>
 </div>

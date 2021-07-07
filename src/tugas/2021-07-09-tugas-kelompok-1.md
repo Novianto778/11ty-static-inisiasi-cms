@@ -1,5 +1,6 @@
 ---
 title: 'Tugas Kelompok 1'
+url: "github.com/novianto778"
 ---
 
 Selamat datang di website Inisiasi Fakultas Teknologi Industri UAJY 2020.

@@ -19,10 +19,12 @@
 </nav>
 
     <main>
-      <div class="beranda__post__full">
-    <div class="beranda__card__full">
-      <h4 class="card--title--full">Tugas 1</h4>
-      <div class="card--content--full"><p>Dari rangkaian acara tersebut, tentunya ada beberapa tugas dan presensi yang sudah kalian lakukan untuk kelulusan inisiasi ini.</p>
+      
+<div class="beranda__post__full">
+  <div class="beranda__card__full">
+    <h4 class="card--title--full">Tugas 1</h4>
+    <div class="card--content--full">
+      <p>Dari rangkaian acara tersebut, tentunya ada beberapa tugas dan presensi yang sudah kalian lakukan untuk kelulusan inisiasi ini.</p>
 <p>Berikut kami informasikan mengenai kelulusan hasil dari jerih payah kalian saat inisiasi kemarin.</p>
 <p>Bagi yang tidak lulus, yuk semangat dan ikuti Inisiasi FTI tahun depan dengan lebih giat!</p>
 <p>Jika NPM anda tidak terdapat pada daftar peserta lulus atau peserta tidak lulus, silahkan menghubungi PH Inisiasi FTI UAJY 2020. Batas konfirmasi adalah 17 Oktober 2020 pukul 23:59 WIB.</p>
@@ -32,8 +34,13 @@
 <p>Jadi, jangan lupa untuk terus cek website ini yaa 😁👍 dan jangan lupa juga untuk memfollow akun-akun kita di sosial media lain ya!! Instagram: @inisiasi_ftiuajy
 OA Line : @242enyob
 Website : https://fti.uajy.ac.id/inisiasi/</p>
-</div>
+
+      <p class="tugas--link--title">Link Pengumpulan</p>
+      <p class="tugas--link">
+        <a href="https://bit.ly/Tugas1">bit.ly/Tugas1</a>
+      </p>
     </div>
+  </div>
 </div>
 
     </main>
@@ -48,5 +55,17 @@ Website : https://fti.uajy.ac.id/inisiasi/</p>
     </p>
   </div>
 </footer>
+
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
   </body>
 </html>

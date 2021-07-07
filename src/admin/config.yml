@@ -1,0 +1,24 @@
+backend:
+  name: git-gateway
+  branch: main
+media_folder: 'public/assets'
+public_folder: '/assets'
+collections:
+  -name: 'beranda'
+  label: "Beranda"
+  folder: 'src/beranda'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+
+  -name: 'tugas'
+  label: "Tugas"
+  folder: 'src/tugas'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Link', name: 'url', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
