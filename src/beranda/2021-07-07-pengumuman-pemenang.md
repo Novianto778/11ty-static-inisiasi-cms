@@ -1,0 +1,26 @@
+---
+title: My First Article
+---
+
+Halo warga **FTI!** 👋👋
+
+Bagaimana inisiasi yang sudah berjalan bulan lalu? Seru kan?!
+
+Dari rangkaian acara tersebut, tentunya ada beberapa tugas dan presensi yang sudah kalian lakukan untuk kelulusan inisiasi ini.
+
+Berikut kami informasikan mengenai kelulusan hasil dari jerih payah kalian saat inisiasi kemarin.
+
+Bagi yang tidak lulus, yuk semangat dan ikuti Inisiasi FTI tahun depan dengan lebih giat!
+
+Jika NPM anda tidak terdapat pada daftar peserta lulus atau peserta tidak lulus, silahkan menghubungi PH Inisiasi FTI UAJY 2020. Batas konfirmasi adalah 17 Oktober 2020 pukul 23:59 WIB.
+
+
+Selamat datang di website Inisiasi Fakultas Teknologi Industri UAJY 2020.
+
+Haiii calon mahasiswa baru Fakultas Teknologi Industri Universitas Atma Jaya Yogyakarta!! Ini adalah website resmi Inisiasi FTI UAJY 2020.
+
+Di sini ini, kalian bisa mendapatkan informasi-informasi seputar FTI UAJY, info lembaga-lembaga di FTI UAJY, pengumuman selama inisiasi, tugas-tugas selama inisiasi dan makrab berlangsung, dan lain-lain.
+
+Jadi, jangan lupa untuk terus cek website ini yaa 😁👍 dan jangan lupa juga untuk memfollow akun-akun kita di sosial media lain ya!! Instagram: @inisiasi_ftiuajy
+OA Line : @242enyob
+Website : https://fti.uajy.ac.id/inisiasi/

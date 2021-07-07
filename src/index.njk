@@ -1,0 +1,15 @@
+---
+title: My Homepage
+layout: 'base.njk'
+---
+{% include "hero.njk" %}
+<section class="beranda">
+  <h1 class="beranda__title">Beranda</h1>
+  <div class="beranda__post">
+    {%- for post in collections.beranda | reverse -%}
+      {% include "beranda-snippet.njk" %}
+    {%- endfor -%}
+  </div>
+</section>
+    
+

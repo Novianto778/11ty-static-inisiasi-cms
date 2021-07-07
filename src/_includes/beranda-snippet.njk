@@ -1,0 +1,9 @@
+<div class="beranda__card">
+  <h4 class="card--title">
+    <a href="{{ post.url }}">{{ post.data.title }}</a>
+  </h4>
+  <div class="card--content">{{ post.templateContent | safe }}</div>
+  <a href="{{ post.url }}" class="card--link">
+    <p>Baca Selengkapnya >></p>
+  </a>
+</div>

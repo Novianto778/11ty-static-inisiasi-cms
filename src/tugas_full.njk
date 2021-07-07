@@ -1,0 +1,13 @@
+---
+title: Tugas
+layout: 'base.njk'
+---
+{% include "hero.njk" %}
+<section class="beranda">
+  <h1 class="beranda__title">Tugas Inisiasi</h1>
+  <div class="tugas__post">
+    {%- for post in collections.tugas -%}
+      {% include "tugas-snippet.njk" %}
+    {%- endfor -%}
+  </div>
+</section>
